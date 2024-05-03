@@ -1,6 +1,7 @@
 body {
     margin: .5;
     background: #c9e7ff;
-    opacity: .8;
+    opacity: 1;
     text-align: center;
+    font-size: x-large;
 }

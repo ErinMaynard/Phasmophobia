@@ -23,6 +23,7 @@ h2 {
     color: #99bfdb;
     font-size: 1.5em;
     text-align: center;
+    position:relative; left: 40px;
 }
 
 .wrapper {
@@ -34,12 +35,14 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4%;
+    position:relative; left: 40px;
 }
 
 .evidence-wrapper {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4%;
+    position:relative; left: 40px;
 }
 
 .gcol1,
@@ -65,7 +68,7 @@ h2 {
     padding: 16px;
     font-size: 16px;
     border: none;
-    font-family: 'lazy_dog', sans-serif;
+    font-family: 'lazy_dog';
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -93,7 +96,7 @@ h2 {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #99bfdb;}
+  .dropdown-content a:hover {background-color: #010925;}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}

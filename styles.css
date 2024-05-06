@@ -14,7 +14,9 @@ body {
 }
 
 h1 {
+    color: #99bfdb;
     font-size: 2em;
+    text-align: center;
 }
 
 h2 {

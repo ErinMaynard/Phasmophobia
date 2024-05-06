@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'lazy_dog';
+    src: url('lazy_dog.ttf') format('truetype');
+}
+
 body {
     margin: .5;
     background: #01081e;
@@ -12,12 +17,18 @@ h1 {
     font-size: 2em;
 }
 
+h2 {
+    color: #99bfdb;
+    font-size: 1.5em;
+    text-align: center;
+}
+
 .wrapper {
     display: flex;
     justify-content: space-between;
 }
 
-.gcol1 {
+/* .gcol1 {
     flex-grow: 1;
     text-align: center;
     display: flex;
@@ -35,4 +46,17 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+
+.gcol1,
+.gcol2,
+.gcol3,
+.ecol1,
+.ecol2,
+.ecol3 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
 }

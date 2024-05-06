@@ -60,3 +60,12 @@ h2 {
     align-items: center;
     margin-bottom: 4%;
 }
+
+.ecol1,
+.ecol2,
+.ecol3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

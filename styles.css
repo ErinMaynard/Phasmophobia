@@ -34,14 +34,14 @@ h2 {
 .ghost-wrapper{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
     margin-left: 15%;
 }
 
 .evidence-wrapper {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
     margin-left: 15%;
 }
 
@@ -65,8 +65,8 @@ h2 {
 
 .dropbtn {
     color: #99bfdb;
-    padding: 16px;
-    font-size: 16px;
+    padding: 14px;
+    font-size: 14px;
     border: none;
     font-family: 'lazy_dog';
     font-size: 1.25em;

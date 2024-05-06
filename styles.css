@@ -28,12 +28,20 @@ h2 {
     flex-direction: column;
 }
 
-.ghost-wrapper,
-.evidence-wrapper {
-    display: flex;
-    flex-direction: row;
+.ghost-wrapper{
+    
+    flex-direction: column;
     justify-content: center;
     margin-bottom: 4%;
+}
+
+.evidence-wrapper {
+    
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4%;
+    position: absolute;
+    top: 50%;
 }
 
 .gcol1,
@@ -49,10 +57,4 @@ h2 {
     margin-bottom: 4%;
 }
 
-.ecol1,
-.ecol2,
-.ecol3 {
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
+

@@ -35,14 +35,12 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5%;
-    margin-left: 25%;
 }
 
 .evidence-wrapper {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5%;
-    margin-left: 15%;
 }
 
 .gcol1,

@@ -63,6 +63,22 @@ h2 {
     margin-bottom: 2%;
 }
 
+.gcol1,
+.ecol1 {
+    margin-right: 5%;
+}
+
+.gcol2,
+.ecol2 {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.gcol3,
+.ecol3 {
+    margin-left: 5%;
+}
+
 .dropbtn {
     color: #99bfdb;
     padding: 12px;

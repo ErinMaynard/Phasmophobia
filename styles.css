@@ -24,12 +24,13 @@ h2 {
 }
 
 .wrapper {
-    display: row;
+    display: flex;
     flex-direction: column;
 }
 
 .ghost-wrapper{
     
+    display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 4%;
@@ -37,6 +38,7 @@ h2 {
 
 .evidence-wrapper {
     
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 4%;

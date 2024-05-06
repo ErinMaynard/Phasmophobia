@@ -60,4 +60,10 @@ h2 {
     align-items: center;
 }
 
+#rectangle {
+    width: 10%;
+    height:100%;
+    background: blanchedalmond;
+}
+
 

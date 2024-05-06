@@ -24,13 +24,13 @@ h2 {
 }
 
 .wrapper {
-    display: flex;
+    display: row;
     flex-direction: column;
 }
 
 .ghost-wrapper{
     
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     margin-bottom: 4%;
 }
@@ -40,8 +40,6 @@ h2 {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 4%;
-    position: absolute;
-    top: 50%;
 }
 
 .gcol1,

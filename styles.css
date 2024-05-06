@@ -42,32 +42,22 @@ h2 {
 }
 
 .gcol1,
-.gcol2 {
-    flex-basis: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5%;
-}
+.gcol2,
 .gcol3 {
     flex-basis: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: -20px;
 }
 
 .ecol1,
-.ecol2 {
-    flex-basis: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5%;
-}
+.ecol2,
 .ecol3 {
     flex-basis: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: -20px;
 }
 

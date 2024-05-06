@@ -4,6 +4,29 @@ body {
     opacity: 1;
     text-align: center;
     font-size: xx-large;
-    src: url(lazy_dog.ttf)
+    font-family: 'lazy_dog', sans-serif;
     
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.col2 {
+    text-align: center;
+}
+
+.col3 {
+    flex-grow: 1;
+    text-align: center;
 }

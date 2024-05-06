@@ -29,19 +29,16 @@ h2 {
 }
 
 .ghost-wrapper{
-    
     display: flex;
     justify-content: space-between;
     margin-bottom: 4%;
 }
 
-/* .evidence-wrapper {
-    
+.evidence-wrapper {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 4%;
-} */
+}
 
 .gcol1,
 .gcol2,

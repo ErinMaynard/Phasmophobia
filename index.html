@@ -7,18 +7,26 @@
     <style>
         .wrapper div {
             font-size: 32px;
-            src: url(lazy_dog.ttf)
+        }
+        @font-face {
+            font-family: 'lazy_dog'; /*a name to be used later*/
+            src: url('lazy_dog.ttf'); /*URL to font*/
         }
     </style>
 </head>
 <body>
     <h1>Phasmophobia Guide</h1>
     <div style="position: relative;">
-        <img src="homepage_ghost.png" width="60%" height="auto" style="float: right;">
+        <img src="homepage_ghost.png" width="40%" height="auto" style="float: right;">
      </div>
     <div class="wrapper">
+        position: fixed;
+        top: 50%;
+        left: 50%;
         <a href="ghost types/spirit.html" style="display:inline-block; text-decoration:none; color:#99bfdb; margin-right: 20%;" class="Spirit"><div>Spirit</div></a>
+        <center>
         <a href="ghost types/poltergeist.html" style="display:inline-block; text-decoration:none; color:#99bfdb; margin-right: 20%;" class = "Poltergeist"><div>Poltergeist</div></a>
+        </center>
         <a href="ghost types/mare.html" style="display:inline-block; text-decoration:none; color:#99bfdb; margin-right: 0%;" class = "Mare"><div>Mare</div></a>
         <br /> 
         <br />

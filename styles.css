@@ -34,6 +34,7 @@ h3 {
 .wrapper {
     display: flex;
     flex-direction: column;
+    color: #99bfdb;
 }
 
 .ghost-wrapper{

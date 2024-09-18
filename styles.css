@@ -4,7 +4,8 @@
 }
 
 body {
-    margin: .5;
+    margin: 0;
+    height: 100vh;
     background: #01081e;
     opacity: 1;
     text-align: center;
@@ -90,26 +91,30 @@ h3 {
 .more-categories {
     font-family: 'lazy_dog', sans-serif;
     text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+    height: 90%
 }
 
 .starting,
 .maps,
 .blink-speed,
 .cursed-objects {
-    box-sizing: border-box;
-    height: 10%;
     width: 100%;
     color:#99bfdb;
     background: #01081e;
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration: none;
 }
 
 .starting:hover,
 .maps:hover,
 .blink-speed:hover,
 .cursed-objects:hover {
-    box-sizing: border-box;
-    height: 10%;
-    width:100%;
     color: #01081e;
     background: #99bfdb;
 }

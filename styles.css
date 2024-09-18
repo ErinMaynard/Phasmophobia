@@ -96,7 +96,8 @@ h3 {
 .maps,
 .blink-speed,
 .cursed-objects {
-    height: 16%;
+    box-sizing: border-box;
+    height: 10%;
     width: 100%;
     color:#99bfdb;
     background: #01081e;
@@ -106,7 +107,8 @@ h3 {
 .maps:hover,
 .blink-speed:hover,
 .cursed-objects:hover {
-    height: 16%;
+    box-sizing: border-box;
+    height: 10%;
     width:100%;
     color: #01081e;
     background: #99bfdb;

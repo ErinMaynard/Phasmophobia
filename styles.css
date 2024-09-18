@@ -91,13 +91,13 @@ h3 {
     font-family: 'lazy_dog', sans-serif;
     text-align: center;
     box-sizing: border-box;
-    display: grid;
 }
 
 .starting,
 .maps,
 .blink-speed,
 .cursed-objects {
+    box-sizing: border-box;
     height: 16%;
     width: 100%;
     color:#99bfdb;
@@ -108,6 +108,7 @@ h3 {
 .maps:hover,
 .blink-speed:hover,
 .cursed-objects:hover {
+    box-sizing: border-box;
     height: 16%;
     width:100%;
     color: #01081e;

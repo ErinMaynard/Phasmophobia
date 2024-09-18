@@ -85,14 +85,16 @@ h3 {
     border-bottom: #99bfdb;
     text-align: center;
     box-sizing: border-box;
-    height: 8%;
+    height: 6%;
     margin: 1%;
 }
 
 .more-categories {
     background: #01081e;
-    color:#99bfdb;
     font-family: 'lazy_dog', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .starting,
@@ -101,6 +103,7 @@ h3 {
 .cursed-objects {
     box-sizing: border-box;
     height: 18%;
+    color:#99bfdb;
 }
 
 .starting:hover,
@@ -109,8 +112,8 @@ h3 {
 .cursed-objects:hover {
     box-sizing: border-box;
     height: 18%;
-    background: #99bfdb;
     color: #01081e;
+    background: #99bfdb;
 }
 
 

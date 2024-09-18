@@ -84,24 +84,26 @@ h3 {
     font-family: 'lazy_dog', sans-serif;
     height: 8vh;
     border-bottom: #99bfdb;
+    text-align: center;
 }
 
 .more-categories {
-    background-color: #01081e;
+    background: #01081e;
     color:#99bfdb;
+    font-family: 'lazy_dog', sans-serif;
 }
 
 .starting,
 .maps,
 .cursed-objects {
-    background-size: 23vh;
+    height: 23vh;
 }
 
 .starting:hover,
 .maps:hover,
 .cursed-objects:hover {
-    background-size: 23vh;
-    background-color: #99bfdb;
+    height: 23vh;
+    background: #99bfdb;
     color: #01081e;
 }
 

@@ -79,12 +79,13 @@ h3 {
 }
 
 .header {
-    background-color: #01081e;
+    background: #01081e;
     color: #99bfdb;
     font-family: 'lazy_dog', sans-serif;
-    height: 8vh;
     border-bottom: #99bfdb;
     text-align: center;
+    box-sizing: border-box;
+    height: 8%;
 }
 
 .more-categories {

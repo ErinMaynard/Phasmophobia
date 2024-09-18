@@ -86,6 +86,7 @@ h3 {
     text-align: center;
     box-sizing: border-box;
     height: 8%;
+    margin: 1%;
 }
 
 .more-categories {
@@ -96,14 +97,16 @@ h3 {
 
 .starting,
 .maps,
+.blink-speed,
 .cursed-objects {
-    height: 23vh;
+    height: 21vh;
 }
 
 .starting:hover,
 .maps:hover,
+.blink-speed:hover,
 .cursed-objects:hover {
-    height: 23vh;
+    height: 21vh;
     background: #99bfdb;
     color: #01081e;
 }

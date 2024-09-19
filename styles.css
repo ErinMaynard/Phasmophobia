@@ -93,7 +93,7 @@ h3 {
     text-align: center; 
     flex-direction: column; 
     display: flex;
-    justify-content: space-betweem;
+    justify-content: space-between;
     height: 90%
 }
 
@@ -124,6 +124,7 @@ h3 {
     text-align: center; /* Center text */
     color:#99bfdb;
     background: #01081e;
+    justify-content: center;
 }
 
 .starting:hover a,

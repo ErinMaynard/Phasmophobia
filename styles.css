@@ -92,7 +92,8 @@ h3 {
     font-family: 'lazy_dog', sans-serif;
     text-align: center; 
     flex-direction: column; 
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-betweem;
     height: 90%
 }
 
@@ -101,9 +102,6 @@ h3 {
 .blink-speed,
 .cursed-objects {
     width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    height: fit-content;
     color:#99bfdb;
     background: #01081e;
     box-sizing: border-box;
@@ -119,12 +117,10 @@ h3 {
 .blink-speed a,
 .cursed-objects a {
     box-sizing: border-box;
-    height: fit-content;
     flex:1;
     display: flex;
-    width:100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    width: 100%;
+    height:100%;
     text-align: center; /* Center text */
     color:#99bfdb;
     background: #01081e;

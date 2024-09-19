@@ -92,6 +92,7 @@ h3 {
     font-family: 'lazy_dog', sans-serif;
     text-align: center; 
     flex-direction: column; 
+    align-items: center;
     display: flex;
     justify-content: space-between;
     height: 90%
@@ -117,6 +118,7 @@ h3 {
 .blink-speed a,
 .cursed-objects a {
     box-sizing: border-box;
+    align-items: center;
     flex:1;
     display: flex;
     width: 100%;

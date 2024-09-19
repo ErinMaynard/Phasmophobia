@@ -85,13 +85,13 @@ h3 {
     text-align: center;
     box-sizing: border-box;
     height: 5%;
-    margin: 1%;
+    margin: 2%;
 }
 
 .more-categories {
     font-family: 'lazy_dog', sans-serif;
     text-align: center;
-    display: flex; 
+    display: grid; 
     flex-direction: column; 
     justify-content: space-around;
     height: 90%
@@ -106,9 +106,9 @@ h3 {
     background: #01081e;
     flex: 1; 
     text-decoration: none;
-    display: flex; /* Keep the display as flex */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    display: flex; 
+    /*justify-content: center; 
+    align-items: center; */
 }
 
 .starting a,
@@ -121,7 +121,6 @@ h3 {
     text-align: center; /* Center text */
     color:#99bfdb;
     background: #01081e;
-    padding: 20px 0;
 }
 
 .starting:hover a,

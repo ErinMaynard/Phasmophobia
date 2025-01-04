@@ -68,6 +68,22 @@ h3 {
     margin-bottom: 5px;
 }
 
+.gcol1 a,
+.gcol2 a,
+.gcol3 a {
+    color: #99bfdb;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.gcol1 a:hover,
+.gcol2 a:hover,
+.gcol3 a:hover {
+    color: white;
+    text-decoration: underline;
+    display: inline-block;
+}
+
 .ecol1,
 .ecol2,
 .ecol3 {
@@ -76,6 +92,21 @@ h3 {
     flex-direction: column;
     align-items: center;
     margin-bottom: 5px;
+}
+
+.ecol1 a,
+.ecol2 a,
+.ecol3 a {
+    color: #99bfdb;
+    text-decoration: none;
+}
+
+.ecol1 a:hover,
+.ecol2 a:hover,
+.ecol3 a:hover {
+    color: white;
+    text-decoration: underline;
+    display: inline-block;
 }
 
 .header {
